@@ -48,6 +48,6 @@ Vue.config.productionTip = false;
 
 new Vue({
   router,
-  store,
+  store,//injected into all components, so they can ha direct access to it
   render: h => h(App)
 }).$mount("#app");
